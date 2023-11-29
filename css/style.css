@@ -87,6 +87,11 @@ section {
     background-color: #b0351d;
 }
 h1{
+    background-color: aqua;
     text-align: center;
     font-size: 200px;
+}
+h2{text-align: center;
+    font-size: 80px;
+    background-color: darkblue;
 }
