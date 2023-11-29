@@ -1,14 +1,14 @@
-body {
+body {background-color: rgb(214, 236, 213);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
+    background-image: url(../MEU-SITE-DE-VENDAS/img/loja.jpg);
+    color: rgb(255, 255, 255);
+    text-align:center;
+    padding:160px;
 }
 
 button {
@@ -40,8 +40,9 @@ section {
 }
 
 .price {
+
     font-weight: bold;
-    color: #333;
+    color:rgb(255, 0, 0);
 }
 
 .add-to-cart {
@@ -86,12 +87,10 @@ section {
 #checkout:hover {
     background-color: #b0351d;
 }
-h1{
-    background-color: aqua;
-    text-align: center;
-    font-size: 200px;
-}
-h2{text-align: center;
-    font-size: 80px;
-    background-color: darkblue;
+
+   
+h2{color: #afa54c;
+   text-align: center;
+    font-size: 20px;
+    
 }
