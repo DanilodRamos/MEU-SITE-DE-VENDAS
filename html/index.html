@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MEU-SITE-DE-VENDAS</title>
+</head>
+<body>
+    <header>
+        <h1><i>LOJA DBR</i></h1>
+        <button id="cartButton">Carrinho</button>
+        <br>
+    </header>
+    
+    <section id="products">
+        <div class="product" data-id="1">
+            <img src="product1.jpg" alt="Produto 1">
+            <h3>Produto 1</h3>
+            <p>Descrição do Produto 1.</p>
+            <p class="price">$20.00</p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+        
+        <div class="product" data-id="2">
+            <img src="product2.jpg" alt="Produto 2">
+            <h3>Produto 2</h3>
+            <p>Descrição do Produto 2.</p>
+            <p class="price">$30.00</p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+        <!-- Adicione mais produtos conforme necessário -->
+    </section>
+
+    <section id="cart" class="hidden">
+        <h2>Carrinho de Compras</h2>
+        <ul id="cart-items">
+            <!-- Itens do carrinho serão exibidos aqui -->
+        </ul>
+        <p id="total">Total: $0.00</p>
+        <button id="checkout">Finalizar Compra</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
