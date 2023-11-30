@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Event listener para finalizar a compra
     checkoutButton.addEventListener('click', function () {
-        alert('Compra finalizada! Total: $' + getTotal().toFixed(2));
+        alert('Compra finalizada,Volte Sempre a loja DBR! Total: $' + getTotal().toFixed(2));
         cartItems = [];
         updateCart();
     });
